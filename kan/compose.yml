@@ -1,3 +1,4 @@
+# Quickstart : fill the BETTER_AUTH_SECRET variable (see below) and you're good to go !
 services:
   kan:
     image: ghcr.io/kanbn/kan:latest
