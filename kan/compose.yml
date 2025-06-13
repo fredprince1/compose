@@ -1,3 +1,4 @@
+# Simple docker compose file for kan https://github.com/kanbn/kan
 # Quickstart : fill the BETTER_AUTH_SECRET variable (see below) and you're good to go !
 services:
   kan:
