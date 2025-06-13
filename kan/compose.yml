@@ -18,6 +18,7 @@ services:
       #- SMTP_PORT=465 # Port 587 will not work
       #- SMTP_USER=
       #- SMTP_PASSWORD=
+      #- BETTER_AUTH_TRUSTED_ORIGINS=http://localhost:3000
     depends_on:
       - postgres
     command: sh -c "cd /app && pnpm db:migrate && cd /app/apps/web && pnpm start"
